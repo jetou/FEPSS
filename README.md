@@ -8,9 +8,9 @@
 
 ### Requirements
 
-- `C++ == 14
-- `CMake == 3.3.2
-- `CPlex == 20.1
+- `C++ == 14`
+- `CMake == 3.3.2`
+- `CPlex == 20.1`
 
 
 ### Quick Start
