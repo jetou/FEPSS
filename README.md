@@ -8,18 +8,29 @@
 
 ### Requirements
 
-C++ == 14
-CMake == 3.3.2
-CPlex == 20.1
+- `C++ == 14
+- `CMake == 3.3.2
+- `CPlex == 20.1
 
 
 ### Quick Start
 
-    <C++ compiled file> <mkp problem instance> <total algorithm runtime> <CPLEX single run time> <final result storage location content as <instance name, best result obtained, time taken to obtain this result, seed>> <intermediate result storage location content as <every new current best solution obtained during the algorithm run, time to obtain this solution>> <seed number>
+    <C++ compiled file> <total algorithm runtime> <CPLEX single run time> <seed number> <benchmark type> <mkp problem instance> <output dir>
+    
+- `<C++ compiled file>`: the executable file generated from your C++ code.
+- `<total algorithm runtime>`: the total time for the algorithm to run.
+- `<CPLEX single run time>`: the time for a single run of CPLEX.
+- `<seed number>`: the seed number for randomization.
+- `<benchmark type>`: should be either `1` for Orlibrary or `2` for MK_GK.
+- `<mkp problem instance>`: the specific problem instance for MKP (Multidimensional Knapsack Problem).
+- `<output dir>`: the directory where the output will be stored.
+
+Example:
+
 
 For example
 
-    ./FEPPS ../benchmark/5.100/5.100.0.txt 360 10 ./results/Results.txt ../benchmark/5.100/data/ 1
+    ./FEPSS 7200 10 1 1 ../benchmark/30.500/30.500.0.txt ./ResultsAblation/ReRunOri/Result_0.txt 
 
 ### Citation
 
