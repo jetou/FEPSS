@@ -15,9 +15,11 @@ CPlex == 20.1
 
 ### Quick Start
 
-run **'<C++ compiled file> <mkp problem instance> <total algorithm runtime> <CPLEX single run time> <final result storage location content as <instance name, best result obtained, time taken to obtain this result, seed>> <intermediate result storage location content as <every new current best solution obtained during the algorithm run, time to obtain this solution>> <seed number>'**
+    <C++ compiled file> <mkp problem instance> <total algorithm runtime> <CPLEX single run time> <final result storage location content as <instance name, best result obtained, time taken to obtain this result, seed>> <intermediate result storage location content as <every new current best solution obtained during the algorithm run, time to obtain this solution>> <seed number>
+
 For example
-run **'./FEPPS ../benchmark/5.100/5.100.0.txt 360 10 ./results/Results.txt ../benchmark/5.100/data/ 1'** .
+
+    ./FEPPS ../benchmark/5.100/5.100.0.txt 360 10 ./results/Results.txt ../benchmark/5.100/data/ 1
 
 ### Citation
 
