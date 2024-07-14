@@ -22,13 +22,10 @@
 - `<CPLEX single run time>`: the time for a single run of CPLEX.
 - `<seed number>`: the seed number for randomization.
 - `<benchmark type>`: should be either `1` for Orlibrary or `2` for MK_GK.
-- `<mkp problem instance>`: the specific problem instance for MKP (Multidimensional Knapsack Problem).
+- `<mkp problem instance>`: the specific problem instance for MKP.
 - `<output dir>`: the directory where the output will be stored.
 
 Example:
-
-
-For example
 
     ./FEPSS 7200 10 1 1 ../benchmark/30.500/30.500.0.txt ./ResultsAblation/ReRunOri/Result_0.txt 
 
